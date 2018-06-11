@@ -240,11 +240,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 767px) {
-  #intro .product-screens .product-screen-1 {
+  #intro .product-screens .product-screen-2 {
     position: static;
     padding-top: 30px;
   }
-  #intro .product-screens .product-screen-2, #intro .product-screens .product-screen-3 {
+  #intro .product-screens .product-screen-3, #intro .product-screens .product-screen-1 {
     display: none;
   }
 }
