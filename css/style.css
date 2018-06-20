@@ -44,6 +44,7 @@ h6 {
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
+    color: #111111;
 }
 
 /* Back to top button */
@@ -507,7 +508,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-description {
     text-align: center;
-    padding-bottom: 40px;
     color: #777;
     font-style: italic;
 }
@@ -526,7 +526,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .section-bg {
-    background: #efefef;
+    background: #ffffff;
+}
+
+.section-bg-2 {
+    background-color: #f2f2f2;
+}
+
+#concept {
+    background-color: #efefef;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* About Us Section
@@ -598,7 +608,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #features {
-    background: #fff;
+    background: #f2f2f2;
     padding: 60px 0 0 0;
     overflow: hidden;
 }
@@ -670,7 +680,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features .features-row {
-    padding: 60px 0 30px 0;
+    padding: 60px 0 0 0;
 }
 
 #advanced-features p {
@@ -817,8 +827,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features p {
-    font-size: 14px;
-    margin-bottom: 0;
+    font-size: 1rem;
     line-height: 24px;
 }
 
@@ -1049,7 +1058,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #video {
-    background: #efefef;
+    background: #ffffff;
     padding: 60px 0 0 0;
     overflow: hidden;
 }
@@ -1058,7 +1067,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #gallery {
-    background: #fff;
+    background: #ffffff;
     padding: 60px 0 0 0;
     overflow: hidden;
 }
@@ -1108,9 +1117,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #contact {
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
     padding: 60px 0;
     overflow: hidden;
+    background-color: #ffffff;
 }
 
 #contact .contact-about h3 {
